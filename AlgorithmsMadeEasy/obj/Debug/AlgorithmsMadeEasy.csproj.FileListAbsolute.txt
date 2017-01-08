@@ -1,0 +1,6 @@
+C:\E\algorithmsmadeeasy\AlgorithmsMadeEasy\AlgorithmsMadeEasy\bin\Debug\AlgorithmsMadeEasy.exe.config
+C:\E\algorithmsmadeeasy\AlgorithmsMadeEasy\AlgorithmsMadeEasy\bin\Debug\AlgorithmsMadeEasy.exe
+C:\E\algorithmsmadeeasy\AlgorithmsMadeEasy\AlgorithmsMadeEasy\bin\Debug\AlgorithmsMadeEasy.pdb
+C:\E\algorithmsmadeeasy\AlgorithmsMadeEasy\AlgorithmsMadeEasy\obj\Debug\AlgorithmsMadeEasy.csprojResolveAssemblyReference.cache
+C:\E\algorithmsmadeeasy\AlgorithmsMadeEasy\AlgorithmsMadeEasy\obj\Debug\AlgorithmsMadeEasy.exe
+C:\E\algorithmsmadeeasy\AlgorithmsMadeEasy\AlgorithmsMadeEasy\obj\Debug\AlgorithmsMadeEasy.pdb
