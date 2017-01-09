@@ -12,7 +12,7 @@ namespace AlgorithmsMadeEasy
     {
         static void Main(string[] args)
         {
-            
+
         }
     }
 }
