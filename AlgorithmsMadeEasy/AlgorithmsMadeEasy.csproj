@@ -41,6 +41,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CuttingRod.cs" />
     <Compile Include="MaximumRectangularArea.cs" />
     <Compile Include="MaximumSizeRectangle.cs" />
     <Compile Include="MinimumCoinChange.cs" />
