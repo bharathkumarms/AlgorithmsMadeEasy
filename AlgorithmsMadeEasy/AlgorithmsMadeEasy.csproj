@@ -45,6 +45,7 @@
     <Compile Include="MaximumRectangularArea.cs" />
     <Compile Include="MaximumSizeRectangle.cs" />
     <Compile Include="MinimumCoinChange.cs" />
+    <Compile Include="MinimumCostPathInMatrix.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="WeightedJobScheduling.cs" />
