@@ -49,6 +49,7 @@
     <Compile Include="MinimumJumpToReachEnd.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="StringInterleaving.cs" />
     <Compile Include="WeightedJobScheduling.cs" />
   </ItemGroup>
   <ItemGroup>
