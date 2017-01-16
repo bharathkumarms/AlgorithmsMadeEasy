@@ -41,6 +41,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BinarySearchTree.cs" />
     <Compile Include="CuttingRod.cs" />
     <Compile Include="MaximumRectangularArea.cs" />
     <Compile Include="MaximumSizeRectangle.cs" />
