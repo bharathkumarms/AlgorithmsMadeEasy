@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace AlgorithmsMadeEasy
 {
-    class SelectionSort
+    class BubbleSort
     {
-        public void SelectionSortMethod()
+        public void BubbleSortMethod()
         {
             var input = System.Console.ReadLine();
             string[] sInput = input.Split(' ');
@@ -16,21 +16,14 @@ namespace AlgorithmsMadeEasy
 
             for (int i = 0; i < iInput.Length; i++)
             {
-                int minIndex = 0;
-                bool flagChanged = false;
-                for (int j = i; j < iInput.Length - 1; j++)
+                for (int j = 0; j < iInput.Length - 1; j++)
                 {
                     if (iInput[j] > iInput[j + 1])
                     {
-                        minIndex = j + 1;
-                        flagChanged = true;
+                        int temp = iInput[j];
+                        iInput[j] = iInput[j + 1];
+                        iInput[j + 1] = temp;
                     }
-                }
-                if (flagChanged)
-                {
-                    int temp = iInput[i];
-                    iInput[i] = iInput[minIndex];
-                    iInput[minIndex] = temp;
                 }
             }
 

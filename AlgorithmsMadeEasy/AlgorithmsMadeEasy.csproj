@@ -42,6 +42,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BinarySearchTree.cs" />
+    <Compile Include="BubbleSort.cs" />
     <Compile Include="CuttingRod.cs" />
     <Compile Include="MaximumRectangularArea.cs" />
     <Compile Include="MaximumSizeRectangle.cs" />
