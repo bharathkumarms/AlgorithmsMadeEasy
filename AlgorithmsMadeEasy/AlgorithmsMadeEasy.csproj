@@ -53,6 +53,7 @@
     <Compile Include="MinimumJumpToReachEnd.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="QuickSort.cs" />
     <Compile Include="SelectionSort.cs" />
     <Compile Include="StaircaseProblemFibonacciSeries.cs" />
     <Compile Include="StringInterleaving.cs" />
