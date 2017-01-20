@@ -61,6 +61,7 @@
     <Compile Include="BubbleSort.cs" />
     <Compile Include="CuttingRod.cs" />
     <Compile Include="InsertionSort.cs" />
+    <Compile Include="LongestPalindromicSubsequence.cs" />
     <Compile Include="MaximumRectangularArea.cs" />
     <Compile Include="MaximumSizeRectangle.cs" />
     <Compile Include="MergeSort.cs" />
