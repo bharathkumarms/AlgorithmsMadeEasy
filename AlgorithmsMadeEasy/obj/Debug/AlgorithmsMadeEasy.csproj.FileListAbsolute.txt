@@ -4,3 +4,11 @@ C:\E\algorithmsmadeeasy\AlgorithmsMadeEasy\AlgorithmsMadeEasy\bin\Debug\Algorith
 C:\E\algorithmsmadeeasy\AlgorithmsMadeEasy\AlgorithmsMadeEasy\obj\Debug\AlgorithmsMadeEasy.csprojResolveAssemblyReference.cache
 C:\E\algorithmsmadeeasy\AlgorithmsMadeEasy\AlgorithmsMadeEasy\obj\Debug\AlgorithmsMadeEasy.exe
 C:\E\algorithmsmadeeasy\AlgorithmsMadeEasy\AlgorithmsMadeEasy\obj\Debug\AlgorithmsMadeEasy.pdb
+C:\E\algorithmsmadeeasy\AlgorithmsMadeEasy\AlgorithmsMadeEasy\bin\Debug\QuickGraph.Data.dll
+C:\E\algorithmsmadeeasy\AlgorithmsMadeEasy\AlgorithmsMadeEasy\bin\Debug\QuickGraph.dll
+C:\E\algorithmsmadeeasy\AlgorithmsMadeEasy\AlgorithmsMadeEasy\bin\Debug\QuickGraph.Graphviz.dll
+C:\E\algorithmsmadeeasy\AlgorithmsMadeEasy\AlgorithmsMadeEasy\bin\Debug\QuickGraph.Serialization.dll
+C:\E\algorithmsmadeeasy\AlgorithmsMadeEasy\AlgorithmsMadeEasy\bin\Debug\QuickGraph.xml
+C:\E\algorithmsmadeeasy\AlgorithmsMadeEasy\AlgorithmsMadeEasy\bin\Debug\QuickGraph.Data.xml
+C:\E\algorithmsmadeeasy\AlgorithmsMadeEasy\AlgorithmsMadeEasy\bin\Debug\QuickGraph.Graphviz.xml
+C:\E\algorithmsmadeeasy\AlgorithmsMadeEasy\AlgorithmsMadeEasy\bin\Debug\QuickGraph.Serialization.xml
