@@ -1,6 +1,10 @@
 C:\E\algorithmsmadeeasy\AlgorithmsMadeEasy\AlgorithmsMadeEasy\bin\Debug\AlgorithmsMadeEasy.exe.config
 C:\E\algorithmsmadeeasy\AlgorithmsMadeEasy\AlgorithmsMadeEasy\bin\Debug\AlgorithmsMadeEasy.exe
 C:\E\algorithmsmadeeasy\AlgorithmsMadeEasy\AlgorithmsMadeEasy\bin\Debug\AlgorithmsMadeEasy.pdb
+C:\E\algorithmsmadeeasy\AlgorithmsMadeEasy\AlgorithmsMadeEasy\obj\Debug\AlgorithmsMadeEasy.csprojResolveAssemblyReference.cache
+C:\E\algorithmsmadeeasy\AlgorithmsMadeEasy\AlgorithmsMadeEasy\obj\Debug\AlgorithmsMadeEasy.exe
+C:\E\algorithmsmadeeasy\AlgorithmsMadeEasy\AlgorithmsMadeEasy\obj\Debug\AlgorithmsMadeEasy.pdb
+<<<<<<< HEAD
 C:\E\algorithmsmadeeasy\AlgorithmsMadeEasy\AlgorithmsMadeEasy\bin\Debug\QuickGraph.Data.dll
 C:\E\algorithmsmadeeasy\AlgorithmsMadeEasy\AlgorithmsMadeEasy\bin\Debug\QuickGraph.dll
 C:\E\algorithmsmadeeasy\AlgorithmsMadeEasy\AlgorithmsMadeEasy\bin\Debug\QuickGraph.Graphviz.dll
@@ -9,5 +13,11 @@ C:\E\algorithmsmadeeasy\AlgorithmsMadeEasy\AlgorithmsMadeEasy\bin\Debug\QuickGra
 C:\E\algorithmsmadeeasy\AlgorithmsMadeEasy\AlgorithmsMadeEasy\bin\Debug\QuickGraph.Data.xml
 C:\E\algorithmsmadeeasy\AlgorithmsMadeEasy\AlgorithmsMadeEasy\bin\Debug\QuickGraph.Graphviz.xml
 C:\E\algorithmsmadeeasy\AlgorithmsMadeEasy\AlgorithmsMadeEasy\bin\Debug\QuickGraph.Serialization.xml
-C:\E\algorithmsmadeeasy\AlgorithmsMadeEasy\AlgorithmsMadeEasy\obj\Debug\AlgorithmsMadeEasy.exe
-C:\E\algorithmsmadeeasy\AlgorithmsMadeEasy\AlgorithmsMadeEasy\obj\Debug\AlgorithmsMadeEasy.pdb
+=======
+D:\AlgorithmsMadeEasy\AlgorithmsMadeEasy\bin\Debug\AlgorithmsMadeEasy.exe.config
+D:\AlgorithmsMadeEasy\AlgorithmsMadeEasy\bin\Debug\AlgorithmsMadeEasy.exe
+D:\AlgorithmsMadeEasy\AlgorithmsMadeEasy\bin\Debug\AlgorithmsMadeEasy.pdb
+D:\AlgorithmsMadeEasy\AlgorithmsMadeEasy\obj\Debug\AlgorithmsMadeEasy.csprojResolveAssemblyReference.cache
+D:\AlgorithmsMadeEasy\AlgorithmsMadeEasy\obj\Debug\AlgorithmsMadeEasy.exe
+D:\AlgorithmsMadeEasy\AlgorithmsMadeEasy\obj\Debug\AlgorithmsMadeEasy.pdb
+>>>>>>> 172e081f7b858db455b0e53ef410036ca77456ec
