@@ -25,3 +25,4 @@ C:\E\algorithmsmadeeasy\AlgorithmsMadeEasy\AlgorithmsMadeEasy\bin\Debug\QuickGra
 C:\E\algorithmsmadeeasy\AlgorithmsMadeEasy\AlgorithmsMadeEasy\obj\Debug\AlgorithmsMadeEasy.exe
 C:\E\algorithmsmadeeasy\AlgorithmsMadeEasy\AlgorithmsMadeEasy\obj\Debug\AlgorithmsMadeEasy.pdb
 C:\E\algorithmsmadeeasy\AlgorithmsMadeEasy\AlgorithmsMadeEasy\obj\Debug\AlgorithmsMadeEasy.csprojResolveAssemblyReference.cache
+D:\AlgorithmsMadeEasy\AlgorithmsMadeEasy\obj\Debug\AlgorithmsMadeEasy.csprojResolveAssemblyReference.cache

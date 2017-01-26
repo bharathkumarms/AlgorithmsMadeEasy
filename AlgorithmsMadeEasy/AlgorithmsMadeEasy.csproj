@@ -78,6 +78,7 @@
     <Compile Include="StaircaseProblemFibonacciSeries.cs" />
     <Compile Include="StringInterleaving.cs" />
     <Compile Include="TopologicalSortGraphAlgorithm.cs" />
+    <Compile Include="Tries.cs" />
     <Compile Include="WeightedJobScheduling.cs" />
   </ItemGroup>
   <ItemGroup>
