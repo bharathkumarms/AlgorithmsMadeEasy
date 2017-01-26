@@ -1,2 +1,20 @@
 # AlgorithmsMadeEasy
-Algorithms Made Easy
+Solved following algorithms along with sample inputs,
+BinarySearchTree,
+BubbleSort,
+CuttingRod,
+InsertionSort,
+KMPSubstringSearch,
+LongestPalindromicSubsequence,
+MaximumRectangularArea,
+MaximumSizeRectangle,
+MergeSort,
+MinimumCoinChange,
+MinimumCostPathInMatrix,
+MinimumJumpToReachEnd,
+QuickSort,
+SelectionSort,
+StaircaseProblemFibonacciSeries,
+StringInterleaving,
+TopologicalSortGraphAlgorithm,
+WeightedJobScheduling.
