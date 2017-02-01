@@ -48,7 +48,7 @@ namespace AlgorithmsMadeEasy
             heapifyUp();
         }
 
-        public int Pop()
+        public int Remove()
         {
             int item = this.items[0];
             this.items[0] = this.items[size-1];
@@ -89,8 +89,18 @@ namespace AlgorithmsMadeEasy
                     index = bigChildIndex;
                 }
             }
-
-            
         }
     }
 }
+
+/*
+Calling Code:
+    MaxHeap mh = new MaxHeap();
+    mh.Add(10);
+    mh.Add(5);
+    mh.Add(2);
+    mh.Add(1);
+    mh.Add(50);
+    int maxVal  = mh.Remove();
+    int newMaxVal = mh.Remove();
+*/

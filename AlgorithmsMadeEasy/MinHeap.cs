@@ -47,7 +47,7 @@ namespace AlgorithmsMadeEasy
             return this.items[0];
         }
 
-        public int poll()
+        public int remove()
         {
             if(this.size==0) throw new NotSupportedException();
             int item = this.items[0];
@@ -66,7 +66,7 @@ namespace AlgorithmsMadeEasy
             heapifyUp();
         }
 
-        public void heapifyUp()
+        private void heapifyUp()
         {
             int index = this.size - 1;
             while (hasParent(index) && parent(index) > this.items[index])
@@ -76,7 +76,7 @@ namespace AlgorithmsMadeEasy
             }
         }
 
-        public void heapifyDown()
+        private void heapifyDown()
         {
             int index = 0;
             while (hasLeftChild(index))
@@ -100,3 +100,16 @@ namespace AlgorithmsMadeEasy
         }
     }
 }
+
+/*
+Calling Code:
+    MinHeap mh = new MinHeap();
+    mh.Add(10);
+    mh.Add(5);
+    mh.Add(2);
+    mh.Add(1);
+    mh.Add(50);
+    int peek = mh.peek();
+    mh.remove();
+    int newPeek = mh.peek();
+*/
