@@ -81,6 +81,39 @@ namespace AlgorithmsMadeEasy
             }
             return false;
         }
+
+        public void Delete(char[] chars)
+        {
+            DeleteWord(this.root, chars, 0);
+        }
+
+        private bool DeleteWord(TrieNode root, char[] chars, int index)
+        {
+            if (index == chars.Length)
+            {
+                if (root.endOfWord == true && root.children.Count != 0)
+                {
+                    root.endOfWord = false;
+                    return false;
+                }
+
+                return root.children.Count == 0;
+            }
+
+            if (!root.children.ContainsKey(chars[index]))
+            {
+                return false;
+            }
+
+            bool deleteWord = DeleteWord(root.children[chars[index]], chars, index + 1);
+
+            if (deleteWord)
+            {
+                root.children.Remove(chars[index]);
+            }
+
+            return root.children.Count == 0;
+        }
     }
 
     public class TrieNode
@@ -107,4 +140,9 @@ Calling Code:
     bool findWord2 = t.FindWord("ab".ToCharArray());
     bool findWord3 = t.FindWord("cdf".ToCharArray());
     bool findWord4 = t.FindWord("ghi".ToCharArray());
+
+    t.Delete("abc".ToCharArray());
+    t.Delete("abgl".ToCharArray());
+    t.Delete("abcd".ToCharArray());
+    t.Delete("xyz".ToCharArray());
 */
