@@ -57,6 +57,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Anagrams.cs" />
     <Compile Include="BinarySearchTree.cs" />
     <Compile Include="BubbleSort.cs" />
     <Compile Include="CuttingRod.cs" />
@@ -72,6 +73,7 @@
     <Compile Include="MinimumCoinChange.cs" />
     <Compile Include="MinimumCostPathInMatrix.cs" />
     <Compile Include="MinimumJumpToReachEnd.cs" />
+    <Compile Include="OptimalStrategyGamePickFromEndsOfArray.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="QuickSort.cs" />
