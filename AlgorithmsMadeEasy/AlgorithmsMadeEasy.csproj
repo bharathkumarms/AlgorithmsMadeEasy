@@ -78,6 +78,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="QuickSort.cs" />
     <Compile Include="SelectionSort.cs" />
+    <Compile Include="SinglyThreadedBinarySearchTree.cs" />
     <Compile Include="StaircaseProblemFibonacciSeries.cs" />
     <Compile Include="StringInterleaving.cs" />
     <Compile Include="TopologicalSortGraphAlgorithm.cs" />
