@@ -1,7 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2012
+# Visual Studio 15
+VisualStudioVersion = 15.0.26430.15
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AlgorithmsMadeEasy", "AlgorithmsMadeEasy\AlgorithmsMadeEasy.csproj", "{38FC9D85-D9B9-4607-A09E-F1C951180074}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPatternImplementation", "DesignPatternImplementation\DesignPatternImplementation.csproj", "{1E40013C-FAFC-4CD2-B67F-76701F10E388}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPatternsTests", "DesignPatternsTests\DesignPatternsTests.csproj", "{CB61B723-06F7-4CF4-9A58-CBA4D19EB2AF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,6 +19,14 @@ Global
 		{38FC9D85-D9B9-4607-A09E-F1C951180074}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{38FC9D85-D9B9-4607-A09E-F1C951180074}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{38FC9D85-D9B9-4607-A09E-F1C951180074}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1E40013C-FAFC-4CD2-B67F-76701F10E388}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E40013C-FAFC-4CD2-B67F-76701F10E388}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E40013C-FAFC-4CD2-B67F-76701F10E388}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1E40013C-FAFC-4CD2-B67F-76701F10E388}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CB61B723-06F7-4CF4-9A58-CBA4D19EB2AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CB61B723-06F7-4CF4-9A58-CBA4D19EB2AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CB61B723-06F7-4CF4-9A58-CBA4D19EB2AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CB61B723-06F7-4CF4-9A58-CBA4D19EB2AF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,0 +1,15 @@
+D:\AlgorithmsMadeEasyRepo\AlgorithmsMadeEasy\DesignPatternsTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+D:\AlgorithmsMadeEasyRepo\AlgorithmsMadeEasy\DesignPatternsTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+D:\AlgorithmsMadeEasyRepo\AlgorithmsMadeEasy\DesignPatternsTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+D:\AlgorithmsMadeEasyRepo\AlgorithmsMadeEasy\DesignPatternsTests\bin\Debug\DesignPatternsTests.dll
+D:\AlgorithmsMadeEasyRepo\AlgorithmsMadeEasy\DesignPatternsTests\bin\Debug\DesignPatternsTests.pdb
+D:\AlgorithmsMadeEasyRepo\AlgorithmsMadeEasy\DesignPatternsTests\bin\Debug\DesignPatternImplementation.exe
+D:\AlgorithmsMadeEasyRepo\AlgorithmsMadeEasy\DesignPatternsTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+D:\AlgorithmsMadeEasyRepo\AlgorithmsMadeEasy\DesignPatternsTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+D:\AlgorithmsMadeEasyRepo\AlgorithmsMadeEasy\DesignPatternsTests\bin\Debug\DesignPatternImplementation.pdb
+D:\AlgorithmsMadeEasyRepo\AlgorithmsMadeEasy\DesignPatternsTests\bin\Debug\DesignPatternImplementation.exe.config
+D:\AlgorithmsMadeEasyRepo\AlgorithmsMadeEasy\DesignPatternsTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+D:\AlgorithmsMadeEasyRepo\AlgorithmsMadeEasy\DesignPatternsTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+D:\AlgorithmsMadeEasyRepo\AlgorithmsMadeEasy\DesignPatternsTests\obj\Debug\DesignPatternsTests.csprojResolveAssemblyReference.cache
+D:\AlgorithmsMadeEasyRepo\AlgorithmsMadeEasy\DesignPatternsTests\obj\Debug\DesignPatternsTests.dll
+D:\AlgorithmsMadeEasyRepo\AlgorithmsMadeEasy\DesignPatternsTests\obj\Debug\DesignPatternsTests.pdb
