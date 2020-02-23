@@ -45,16 +45,17 @@ namespace DesignPatternImplementation.Mediator
         {
             foreach(var userObj in users)
             {
-                if(userObj != user)
-                userObj.Receive(msg);
+                if (userObj != user)
+                    userObj.Receive(msg);
             }
         }
     }
 
     public class UserImpl : User
     {
-        public UserImpl(Mediator m, string name) : base(m, name)
+        public UserImpl(Mediator m, string name): base(m, name)
         { }
+
         public override void Receive(string msg)
         {
             Console.WriteLine(this._name + ": " + msg);
@@ -66,9 +67,8 @@ namespace DesignPatternImplementation.Mediator
         }
     }
 }
-
 /*
- *  var mediatorObj = new MediatorImpl();
+    var mediatorObj = new MediatorImpl();
     var u1 = new UserImpl(mediatorObj, "Bharath");
     var u2 = new UserImpl(mediatorObj, "Kumar");
     var u3 = new UserImpl(mediatorObj, "Ganesh");
@@ -77,7 +77,5 @@ namespace DesignPatternImplementation.Mediator
     mediatorObj.AddUser(u3);
     u1.Send("Hello");
 
-    u2.Send("Cool");
-
-    Console.ReadLine();
+    u2.Send("Cool and Simple");
  */

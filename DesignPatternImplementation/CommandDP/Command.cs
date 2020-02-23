@@ -47,17 +47,16 @@ namespace DesignPatternImplementation.CommandDP
     public class Invoker
     {
         ICommand cmd = null;
+
         public ICommand GetCommand(string action)
         {
-            switch(action)
+            switch (action)
             {
                 case "Start":
                     cmd = new StartCommand();
                     break;
                 case "Stop":
                     cmd = new StopCommand();
-                    break;
-                default:
                     break;
             }
 
@@ -73,6 +72,4 @@ namespace DesignPatternImplementation.CommandDP
 
     ICommand c1 = i.GetCommand("Stop");
     c1.Execute();
-
-    Console.ReadLine();
  */

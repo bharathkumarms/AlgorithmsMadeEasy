@@ -35,7 +35,6 @@ namespace DesignPatternImplementation.Iterator
                 {
                     return true;
                 }
-
                 return false;
             }
 
@@ -51,13 +50,12 @@ namespace DesignPatternImplementation.Iterator
         }
     }
 }
+
 /*
- *  var repo = new NameRepository();
+    var repo = new NameRepository();
     var i = repo.GetIterator();
     while (i.HasNext())
     {
         Console.WriteLine(i.Next());
     }
-
-    Console.ReadLine();
  */

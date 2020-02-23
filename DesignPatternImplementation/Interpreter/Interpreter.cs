@@ -24,28 +24,55 @@ namespace DesignPatternImplementation.Interpreter
     {
         public override void Evaluate(Context context)
         {
-            string e = context.Expression;
+            string s = context.Expression;
             var d = context.Date.Day;
-            string day = e.Replace("DD", d.ToString());
+            string day = s.Replace("DD", d.ToString());
             context.Expression = day;
+        }
+    }
+
+    public class MonthExpression : AbstractExpression
+    {
+        public override void Evaluate(Context context)
+        {
+            string s = context.Expression;
+            var m = context.Date.Month;
+            string month = s.Replace("MM", m.ToString());
+            context.Expression = month;
+        }
+    }
+
+    public class YearExpression : AbstractExpression
+    {
+        public override void Evaluate(Context context)
+        {
+            string s = context.Expression;
+            var y = context.Date.Year;
+            string year = s.Replace("YYYY", y.ToString());
+            context.Expression = year;
         }
     }
 }
 
 /*
- *  var e = new DayExpression();
-    var d = new Context();
+ *  var c = new Context();
+    c.Expression = "DD/MM/YYYY";
+    c.Date = DateTime.Now;
 
-    d.Expression = "DD/MM/YYYY";
-    d.Date = DateTime.Now;
-    e.Evaluate(d);
-    Console.WriteLine(d.Expression);
+    var e = new DayExpression();
+    var m = new MonthExpression();
+    var y = new YearExpression();
+    e.Evaluate(c);
+    m.Evaluate(c);
+    y.Evaluate(c);
+    Console.WriteLine(c.Expression);
 
-    d.Expression = "MM/DD/YYYY";
-    d.Date = DateTime.Now;
-    e.Evaluate(d);
-    Console.WriteLine(d.Expression);
-
+    c.Expression = "MM/DD/YYYY";
+    c.Date = DateTime.Now;
+    e.Evaluate(c);
+    m.Evaluate(c);
+    y.Evaluate(c);
+    Console.WriteLine(c.Expression);
 
     Console.ReadLine();
  */
