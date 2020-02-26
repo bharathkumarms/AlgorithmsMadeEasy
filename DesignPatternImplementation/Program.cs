@@ -3,6 +3,10 @@ using DesignPatternImplementation.CommandDP;
 using DesignPatternImplementation.Interpreter;
 using DesignPatternImplementation.Iterator;
 using DesignPatternImplementation.Mediator;
+using DesignPatternImplementation.Memento;
+using DesignPatternImplementation.Observer;
+using DesignPatternImplementation.State;
+using DesignPatternImplementation.Strategy;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -15,7 +19,6 @@ namespace DesignPatternImplementation
     {
         static void Main(string[] args)
         {
-            
 
             Console.ReadLine();
         }

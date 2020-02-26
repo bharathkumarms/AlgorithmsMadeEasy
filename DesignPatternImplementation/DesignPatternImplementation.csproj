@@ -52,8 +52,12 @@
     <Compile Include="Interpreter\Interpreter.cs" />
     <Compile Include="Iterator\Iterator.cs" />
     <Compile Include="Mediator\Mediator.cs" />
+    <Compile Include="Memento\Memento.cs" />
+    <Compile Include="Observer\Observer.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="State\State.cs" />
+    <Compile Include="Strategy\Strategy.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
