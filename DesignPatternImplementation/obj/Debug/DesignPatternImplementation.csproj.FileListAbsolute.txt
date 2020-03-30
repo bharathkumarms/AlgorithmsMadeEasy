@@ -10,3 +10,9 @@ C:\AlgorithmsMadeEasy\DesignPatternImplementation\bin\Debug\DesignPatternImpleme
 C:\AlgorithmsMadeEasy\DesignPatternImplementation\obj\Debug\DesignPatternImplementation.csprojAssemblyReference.cache
 C:\AlgorithmsMadeEasy\DesignPatternImplementation\obj\Debug\DesignPatternImplementation.exe
 C:\AlgorithmsMadeEasy\DesignPatternImplementation\obj\Debug\DesignPatternImplementation.pdb
+D:\AlgorithmsMadeEasy\DesignPatternImplementation\bin\Debug\DesignPatternImplementation.exe.config
+D:\AlgorithmsMadeEasy\DesignPatternImplementation\bin\Debug\DesignPatternImplementation.exe
+D:\AlgorithmsMadeEasy\DesignPatternImplementation\bin\Debug\DesignPatternImplementation.pdb
+D:\AlgorithmsMadeEasy\DesignPatternImplementation\obj\Debug\DesignPatternImplementation.csprojAssemblyReference.cache
+D:\AlgorithmsMadeEasy\DesignPatternImplementation\obj\Debug\DesignPatternImplementation.exe
+D:\AlgorithmsMadeEasy\DesignPatternImplementation\obj\Debug\DesignPatternImplementation.pdb

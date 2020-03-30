@@ -58,6 +58,8 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="State\State.cs" />
     <Compile Include="Strategy\Strategy.cs" />
+    <Compile Include="TemplateMethod\TemplateMethod.cs" />
+    <Compile Include="Visitor\Visitor.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

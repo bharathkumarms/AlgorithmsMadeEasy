@@ -26,8 +26,9 @@ namespace DesignPatternImplementation.Memento
         public void Restore(Memento m)
         {
             time = m.Get();
-            Console.WriteLine("Time restored from memento:" + time);
+            Console.WriteLine("Time restored from memento: " + time);
         }
+
 
         public class Memento
         {
@@ -63,6 +64,4 @@ namespace DesignPatternImplementation.Memento
     careTaker.Add(tm.SaveToMemento());
 
     tm.Restore(careTaker[1]);
-
-    Console.ReadLine();
  */

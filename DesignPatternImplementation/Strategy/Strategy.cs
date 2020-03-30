@@ -29,16 +29,16 @@ namespace DesignPatternImplementation.Strategy
 
     public class CompressionContext
     {
-        private ICompressionStrategy compressionStrategy;
+        private ICompressionStrategy _compressionStrategy;
 
         public void SetCompressionStrategy(ICompressionStrategy strategy)
         {
-            this.compressionStrategy = strategy;
+            this._compressionStrategy = strategy;
         }
 
         public void Archive()
         {
-            this.compressionStrategy.CompressFile();
+            this._compressionStrategy.CompressFile();
         }
     }
 }
@@ -47,7 +47,7 @@ namespace DesignPatternImplementation.Strategy
     var context = new CompressionContext();
 
     context.SetCompressionStrategy(new ZipCompression());
-    context.Archive(); //Send file List
+    context.Archive();
 
     context.SetCompressionStrategy(new RarCompression());
     context.Archive();

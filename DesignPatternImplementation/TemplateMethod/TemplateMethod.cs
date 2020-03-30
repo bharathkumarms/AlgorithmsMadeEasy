@@ -53,7 +53,7 @@ namespace DesignPatternImplementation.TemplateMethod
     {
         public override void Choose()
         {
-            Console.WriteLine("Product selected offline.");
+            Console.WriteLine("Product selected offine.");
         }
 
         public override void Deliver()
@@ -67,6 +67,7 @@ namespace DesignPatternImplementation.TemplateMethod
         }
     }
 }
+
 /*
     var onlineOrder = new Online();
     onlineOrder.Process(true);
@@ -75,6 +76,4 @@ namespace DesignPatternImplementation.TemplateMethod
 
     var offlineOrder = new Offline();
     offlineOrder.Process(false);
-
-    Console.ReadLine();
-*/
+ */

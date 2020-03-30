@@ -11,6 +11,7 @@ namespace DesignPatternImplementation.Observer
         protected Subject subject;
         public abstract void Update();
     }
+
     public class Subject
     {
         private List<Observer> observers = new List<Observer>();
@@ -27,11 +28,6 @@ namespace DesignPatternImplementation.Observer
             NotifyAllObservers();
         }
 
-        public void Attach(Observer observer)
-        {
-            observers.Add(observer);
-        }
-
         public void NotifyAllObservers()
         {
             foreach(var observer in observers)
@@ -39,33 +35,42 @@ namespace DesignPatternImplementation.Observer
                 observer.Update();
             }
         }
+
+        public void Attach(Observer observer)
+        {
+            observers.Add(observer);
+        }
     }
 
     public class HexObserver : Observer
     {
         public readonly Subject _subject;
+
         public HexObserver(Subject subject)
         {
             this._subject = subject;
             this._subject.Attach(this);
         }
+
         public override void Update()
         {
-            Console.WriteLine("The hex value is: "+ _subject.GetState().ToString("X"));
+            Console.WriteLine("The hex value is:" + _subject.GetState().ToString("X"));
         }
     }
 
     public class BinaryObserver : Observer
     {
         public readonly Subject _subject;
+
         public BinaryObserver(Subject subject)
         {
             this._subject = subject;
             this._subject.Attach(this);
         }
+
         public override void Update()
         {
-            Console.WriteLine("The binary value is: "+ Convert.ToString(_subject.GetState(),2));
+            Console.WriteLine("The binary value is:" + Convert.ToString(_subject.GetState(),2));
         }
     }
 }
@@ -77,6 +82,4 @@ namespace DesignPatternImplementation.Observer
     subject.SetState(10);
 
     subject.SetState(20);
-
-    Console.ReadLine();
  */

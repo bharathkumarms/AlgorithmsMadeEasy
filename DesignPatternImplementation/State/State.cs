@@ -36,6 +36,7 @@ namespace DesignPatternImplementation.State
             this._state = state;
             DoAction();
         }
+
         public void DoAction()
         {
             this._state.DoAction();
