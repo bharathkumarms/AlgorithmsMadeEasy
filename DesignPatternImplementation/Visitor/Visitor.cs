@@ -23,10 +23,10 @@ namespace DesignPatternImplementation.Visitor
     public class DLinkRouter : Router
     {
         public void ReceiveData(char[] data)
-        {}
+        { }
 
         public void SendData(char[] data)
-        {}
+        { }
 
         public void Accept(Visitable v)
         {
@@ -74,6 +74,7 @@ namespace DesignPatternImplementation.Visitor
         }
     }
 }
+
 /*
     var linuxConfigurator = new LinuxConfigurator();
     var dLinkRouter = new DLinkRouter();
@@ -88,4 +89,4 @@ namespace DesignPatternImplementation.Visitor
     windowsConfigurator.Visit(tpLinkRouter);
 
     Console.ReadLine();
- */
+*/
