@@ -1,4 +1,5 @@
 ﻿using DesignPatternImplementation.Adapter;
+using DesignPatternImplementation.Bridge;
 using DesignPatternImplementation.ChainOfResponsibilities;
 using DesignPatternImplementation.CommandDP;
 using DesignPatternImplementation.Interpreter;

@@ -22,6 +22,7 @@ namespace DesignPatternImplementation.Adapter
     class UniversalAdapter : ITarget
     {
         private readonly Adaptee _adaptee;
+
         public UniversalAdapter(Adaptee adaptee)
         {
             _adaptee = adaptee;

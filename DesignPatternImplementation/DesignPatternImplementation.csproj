@@ -45,6 +45,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Adapter\Adapter.cs" />
+    <Compile Include="Bridge\Bridge.cs" />
     <Compile Include="ChainOfResponsibilities\ChainOfResponsibilities.cs" />
     <Compile Include="CommandDP\Command.cs" />
     <Compile Include="Command\AddTextCommand.cs" />
