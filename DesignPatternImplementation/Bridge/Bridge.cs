@@ -26,6 +26,7 @@ namespace DesignPatternImplementation.Bridge
         {
             this._provider = provider;
         }
+
         public object Download(string url)
         {
             return _provider.Download(url);
@@ -66,7 +67,7 @@ namespace DesignPatternImplementation.Bridge
     }
 }
 /*
-    string os = "linux";
+    string os = "windows";
 
     IDownloaderAbstraction handle = null;
 
@@ -77,9 +78,6 @@ namespace DesignPatternImplementation.Bridge
             break;
         case "linux":
             handle = new DownloaderAbstractionImpl(new LinuxDownloaderImpl());
-            break;
-        default:
-            Console.WriteLine("Not supported");
             break;
     }
 
