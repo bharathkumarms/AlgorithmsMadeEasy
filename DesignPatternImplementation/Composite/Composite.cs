@@ -44,9 +44,10 @@ namespace DesignPatternImplementation.Composite
     class Directory : IEmployee
     {
         private List<IEmployee> directory = new List<IEmployee>();
+
         public void DisplayEmployee()
         {
-            foreach (var d in directory)
+            foreach(var d in directory)
             {
                 d.DisplayEmployee();
             }
@@ -54,7 +55,7 @@ namespace DesignPatternImplementation.Composite
 
         public void Add(IEmployee e)
         {
-            directory.Add(e);     
+            directory.Add(e);
         }
 
         public void Remove(IEmployee e)
@@ -65,13 +66,11 @@ namespace DesignPatternImplementation.Composite
 }
 /*
     var developer = new Developer("Bharath");
-    var designer = new Designer("Sudharsan");
+    var disigner = new Designer("Sudarshan");
 
     var directory = new Directory();
     directory.Add(developer);
-    directory.Add(designer);
+    directory.Add(disigner);
 
     directory.DisplayEmployee();
-            
-    Console.ReadLine();
-*/
+ */

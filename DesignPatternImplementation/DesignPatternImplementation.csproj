@@ -52,6 +52,7 @@
     <Compile Include="Command\BaseCommand.cs" />
     <Compile Include="Command\Controller.cs" />
     <Compile Include="Composite\Composite.cs" />
+    <Compile Include="Decorator\Decorator.cs" />
     <Compile Include="Interpreter\Interpreter.cs" />
     <Compile Include="Iterator\Iterator.cs" />
     <Compile Include="Mediator\Mediator.cs" />

@@ -3,6 +3,7 @@ using DesignPatternImplementation.Bridge;
 using DesignPatternImplementation.ChainOfResponsibilities;
 using DesignPatternImplementation.CommandDP;
 using DesignPatternImplementation.Composite;
+using DesignPatternImplementation.Decorator;
 using DesignPatternImplementation.Interpreter;
 using DesignPatternImplementation.Iterator;
 using DesignPatternImplementation.Mediator;
@@ -24,7 +25,7 @@ namespace DesignPatternImplementation
     {
         static void Main(string[] args)
         {
-            
+
             Console.ReadLine();
         }
     }
