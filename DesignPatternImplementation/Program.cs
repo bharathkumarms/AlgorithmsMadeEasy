@@ -4,6 +4,7 @@ using DesignPatternImplementation.ChainOfResponsibilities;
 using DesignPatternImplementation.CommandDP;
 using DesignPatternImplementation.Composite;
 using DesignPatternImplementation.Decorator;
+using DesignPatternImplementation.Facade;
 using DesignPatternImplementation.Interpreter;
 using DesignPatternImplementation.Iterator;
 using DesignPatternImplementation.Mediator;

@@ -29,6 +29,7 @@ namespace DesignPatternImplementation.Decorator
         {
             name = "FarmHouse";
         }
+
         public override int Cost()
         {
             return 200;
@@ -41,6 +42,7 @@ namespace DesignPatternImplementation.Decorator
         {
             name = "Margherita";
         }
+
         public override int Cost()
         {
             return 100;
@@ -55,6 +57,7 @@ namespace DesignPatternImplementation.Decorator
         {
             _pizza = pizza;
         }
+
         public override int Cost()
         {
             return _pizza.Cost() + 50;
@@ -67,11 +70,11 @@ namespace DesignPatternImplementation.Decorator
     }
 }
 /*
-var pizza = new Margherita();
+    var pizza = new Margherita();
 
-var iWantMore = new Tomato(pizza);
+    var iWantMore = new Tomato(pizza);
 
-Console.WriteLine(iWantMore.GetName() + " " + iWantMore.Cost());
+    Console.WriteLine(iWantMore.GetName() + " " + iWantMore.Cost());
 
-Console.ReadLine();
-*/
+    Console.ReadLine();
+ */
