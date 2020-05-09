@@ -5,6 +5,7 @@ using DesignPatternImplementation.CommandDP;
 using DesignPatternImplementation.Composite;
 using DesignPatternImplementation.Decorator;
 using DesignPatternImplementation.Facade;
+using DesignPatternImplementation.Flyweight;
 using DesignPatternImplementation.Interpreter;
 using DesignPatternImplementation.Iterator;
 using DesignPatternImplementation.Mediator;
