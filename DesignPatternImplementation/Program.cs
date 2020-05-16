@@ -11,6 +11,7 @@ using DesignPatternImplementation.Iterator;
 using DesignPatternImplementation.Mediator;
 using DesignPatternImplementation.Memento;
 using DesignPatternImplementation.Observer;
+using DesignPatternImplementation.Proxy;
 using DesignPatternImplementation.State;
 using DesignPatternImplementation.Strategy;
 using DesignPatternImplementation.TemplateMethod;

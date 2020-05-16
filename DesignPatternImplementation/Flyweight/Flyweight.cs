@@ -20,6 +20,7 @@ namespace DesignPatternImplementation.Flyweight
         {
             _name = name;
         }
+
         public void Drive()
         {
             Console.WriteLine("Drive your " + _color + " " + _name);
@@ -33,7 +34,8 @@ namespace DesignPatternImplementation.Flyweight
 
     public class CarFactory
     {
-        private static readonly Dictionary<string, FlyweightCar> cars = new Dictionary<string, FlyweightCar>();
+        private static readonly Dictionary<string, FlyweightCar> cars = 
+            new Dictionary<string, FlyweightCar>();
 
         public FlyweightCar GetCar(string name)
         {
@@ -53,7 +55,6 @@ namespace DesignPatternImplementation.Flyweight
         }
     }
 }
-
 /*
     var factory = new CarFactory();
     var car1 = factory.GetCar("Jaguar F-Type");
@@ -69,6 +70,4 @@ namespace DesignPatternImplementation.Flyweight
     car3.Drive();
 
     Console.WriteLine("Objects Created: " + factory.GetCount());
-
-    Console.ReadLine();
-*/
+ */
