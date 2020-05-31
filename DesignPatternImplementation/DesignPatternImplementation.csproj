@@ -63,6 +63,7 @@
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Proxy\Proxy.cs" />
+    <Compile Include="Singleton\Singleton.cs" />
     <Compile Include="State\State.cs" />
     <Compile Include="Strategy\Strategy.cs" />
     <Compile Include="TemplateMethod\TemplateMethod.cs" />

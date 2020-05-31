@@ -16,6 +16,7 @@ using DesignPatternImplementation.State;
 using DesignPatternImplementation.Strategy;
 using DesignPatternImplementation.TemplateMethod;
 using DesignPatternImplementation.Visitor;
+using DesignPatternImplementation.SingletonImpl;
 using System;
 using System.Collections.Generic;
 using System.Linq;

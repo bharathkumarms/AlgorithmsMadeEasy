@@ -13,6 +13,7 @@ namespace DesignPatternImplementation.Proxy
 
     public class ImageProxy : IImage
     {
+
         private string _imagePath;
 
         private IImage _proxifiedImage;
@@ -55,13 +56,10 @@ namespace DesignPatternImplementation.Proxy
         }
     }
 }
-
 /*
     var image1 = new ImageProxy("sample/photo1");
     image1.ShowImage(false);
 
     var image2 = new ImageProxy("sample/photo2");
     image2.ShowImage(true);
-
-    Console.ReadLine();
- */
+*/
