@@ -37,16 +37,13 @@ namespace DesignPatternImplementation.Prototype
         }
     }
 }
-
 /*
     var language = new Language();
     language.Load();
 
-    var cloned = (Language) language.Clone();
-    var clonedList = cloned.Get();
-    clonedList.Add("Python");
+    var cloned = (Language)language.Clone();
+    var cloneList = cloned.Get();
+    cloneList.Add("Python");
 
     cloned.Print();
-
-    Console.ReadLine();
 */

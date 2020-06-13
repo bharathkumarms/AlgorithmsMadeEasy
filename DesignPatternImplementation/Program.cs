@@ -23,6 +23,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using DesignPatternImplementation.Prototype;
+using DesignPatternImplementation.Factory;
 
 namespace DesignPatternImplementation
 {
