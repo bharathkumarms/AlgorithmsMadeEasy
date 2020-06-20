@@ -42,7 +42,7 @@ namespace DesignPatternImplementation.Factory
             if(level == "mountain")
             {
                 return new Mountain();
-            }else if(level == "water")
+            }else if (level == "water")
             {
                 return new Water();
             }
