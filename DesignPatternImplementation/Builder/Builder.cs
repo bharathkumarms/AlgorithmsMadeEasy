@@ -22,12 +22,13 @@ namespace DesignPatternImplementation.Builder
         {
             // telecommunication
             Console.WriteLine(message + " sent to " + to);
-        }
+        } 
 
         public class SMSBuilder
         {
             public string recipient;
             public string message;
+
             public SMSBuilder AddRecipient(string name)
             {
                 this.recipient = name;
@@ -49,10 +50,9 @@ namespace DesignPatternImplementation.Builder
 }
 /*
     var sms = new SMS.SMSBuilder()
-                    .AddRecipient("9999999999")
-                    .AddMessage("Hello")
-                    .Build();
-
+                        .AddRecipient("9999999999")
+                        .AddMessage("Hello")
+                        .Build();
     sms.Send();
 
     Console.ReadLine();
