@@ -45,6 +45,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AbstractFactory\AbstractFactory.cs" />
+    <Compile Include="ActiveObject\ActiveObject.cs" />
     <Compile Include="Adapter\Adapter.cs" />
     <Compile Include="Bridge\Bridge.cs" />
     <Compile Include="Builder\Builder.cs" />

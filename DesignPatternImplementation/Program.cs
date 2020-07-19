@@ -26,6 +26,8 @@ using DesignPatternImplementation.Prototype;
 using DesignPatternImplementation.Factory;
 using DesignPatternImplementation.Builder;
 using DesignPatternImplementation.AbstractFactoryDesignPattern;
+using DesignPatternImplementation.ActiveObjectDesignPattern;
+using System.Threading;
 
 namespace DesignPatternImplementation
 {
